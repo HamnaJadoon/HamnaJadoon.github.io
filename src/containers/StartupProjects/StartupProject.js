@@ -45,11 +45,23 @@ export default function StartupProject() {
                 >
                   {project.image ? (
                     <div className="project-image">
-                      <img
-                        src={project.image}
-                        alt={project.projectName}
-                        className="card-image"
-                      ></img>
+                      {project.image.toString().includes('.mp4') ? (
+                        <video
+                          src={project.image}
+                          alt={project.projectName}
+                          className="card-image"
+                          autoPlay
+                          muted
+                          loop
+                          playsInline
+                        ></video>
+                      ) : (
+                        <img
+                          src={project.image}
+                          alt={project.projectName}
+                          className="card-image"
+                        ></img>
+                      )}
                     </div>
                   ) : null}
                   <div className="project-detail">

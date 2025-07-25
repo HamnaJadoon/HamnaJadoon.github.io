@@ -111,25 +111,9 @@ Note: Configuring environment variables before deploying your portfolio is highl
   - package.json
 ```
 
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your GitHub token like this, also add your username as `GITHUB_USERNAME`
+2. GitHub integration has been removed from this project. If you need GitHub integration, you'll need to re-implement the components.
 
-```env
-// .env
-REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
-GITHUB_USERNAME = "YOUR GITHUB USERNAME"
-USE_GITHUB_DATA = "true"
-```
-
-Set `showGithubProfile` to true or false to show Contact Profile using GitHub, defaults to false.
-
-**Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
-
-Note: Open Source Projects section only show pinned items of your GitHub.
-If you are seeing something as shown below, follow these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
-
-![ERROR](https://i.imgur.com/Hj6mu1K.png)
-
-If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
+**Note:** The Open Source Projects section that displayed GitHub pinned repositories has been removed.
 
 ## Linking blogs section to Medium
 
