@@ -10,7 +10,10 @@ const ERR = {
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
 
-if (MEDIUM_USERNAME !== undefined && MEDIUM_USERNAME !== "YOU MEDIUM USERNAME HERE") {
+if (
+  MEDIUM_USERNAME !== undefined &&
+  MEDIUM_USERNAME !== "YOU MEDIUM USERNAME HERE"
+) {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const encodedUsername = encodeURIComponent(MEDIUM_USERNAME);
   const options = {
@@ -45,5 +48,7 @@ if (MEDIUM_USERNAME !== undefined && MEDIUM_USERNAME !== "YOU MEDIUM USERNAME HE
 
   req.end();
 } else {
-  console.log("Skipping Medium blogs fetch - no valid MEDIUM_USERNAME provided");
+  console.log(
+    "Skipping Medium blogs fetch - no valid MEDIUM_USERNAME provided"
+  );
 }

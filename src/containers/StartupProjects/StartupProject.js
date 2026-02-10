@@ -45,7 +45,7 @@ export default function StartupProject() {
                 >
                   {project.image ? (
                     <div className="project-image">
-                      {project.image.toString().includes('.mp4') ? (
+                      {project.image.toString().includes(".mp4") ? (
                         <video
                           src={project.image}
                           alt={project.projectName}

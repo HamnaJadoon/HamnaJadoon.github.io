@@ -45,12 +45,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CREATIVE CONTENT WRITER AND STORYTELLER WHO BRINGS IDEAS TO LIFE THROUGH WORDS",
+  subTitle:
+    "CREATIVE CONTENT WRITER AND STORYTELLER WHO BRINGS IDEAS TO LIFE THROUGH WORDS",
   skills: [
     emoji(
       "⚡ Craft compelling blog posts, articles, and web content that engage and convert readers"
     ),
-    emoji("⚡ Create engaging social media content and copywriting for brands and businesses"),
+    emoji(
+      "⚡ Create engaging social media content and copywriting for brands and businesses"
+    ),
     emoji(
       "⚡ Develop creative storytelling and content strategies for various platforms and audiences"
     )
@@ -127,10 +130,7 @@ const educationInfo = {
       subHeader: "Bachelors – LLB",
       duration: "2021 – 2026",
       desc: "Currently pursuing Bachelor of Laws with excellent academic performance.",
-      descBullets: [
-        "CGPA: 3.9",
-        "Location: Mansehra"
-      ]
+      descBullets: ["CGPA: 3.9", "Location: Mansehra"]
     },
     {
       schoolName: "Tameer i Wattan Public School and College",
@@ -138,10 +138,7 @@ const educationInfo = {
       subHeader: "Intermediate – Pre-Engineering",
       duration: "2019 – 2021",
       desc: "Completed intermediate studies with distinction in Pre-Engineering stream.",
-      descBullets: [
-        "Grade: A+",
-        "Location: Abbottabad"
-      ]
+      descBullets: ["Grade: A+", "Location: Abbottabad"]
     },
     {
       schoolName: "Tameer i Wattan Public School and College",
@@ -149,10 +146,7 @@ const educationInfo = {
       subHeader: "Matriculation – Science",
       duration: "2017 – 2019",
       desc: "Completed matriculation with excellent performance in Science group.",
-      descBullets: [
-        "Grade: A+",
-        "Location: Abbottabad"
-      ]
+      descBullets: ["Grade: A+", "Location: Abbottabad"]
     }
   ]
 };
@@ -209,9 +203,7 @@ const workExperiences = {
       companylogo: require("./assets/images/stem_wizard.jpg"),
       date: "Aug 2021 – Oct 2024",
       desc: "Operations management and STEM education content creation.",
-      descBullets: [
-        "Hybrid role combining operations and content development"
-      ]
+      descBullets: ["Hybrid role combining operations and content development"]
     },
     {
       role: "Business Development Associate",
@@ -219,9 +211,7 @@ const workExperiences = {
       companylogo: require("./assets/images/webstergo.jpeg"),
       date: "Oct 2023 – May 2024",
       desc: "Team leadership and lead generation strategies.",
-      descBullets: [
-        "Remote business development and team management"
-      ]
+      descBullets: ["Remote business development and team management"]
     },
     {
       role: "Project Manager",
@@ -253,27 +243,32 @@ const bigProjects = {
     {
       image: require("./assets/images/burger.mp4"),
       projectName: "Crave in Every Layer",
-      projectDesc: "Stacked to perfection. Shot to seduce. Every bite tells a story — and this one starts with your brand. Food content that sizzles for menus, ads, or socials."
+      projectDesc:
+        "Stacked to perfection. Shot to seduce. Every bite tells a story — and this one starts with your brand. Food content that sizzles for menus, ads, or socials."
     },
     {
       image: require("./assets/images/donuts.mp4"),
       projectName: "Sugar in Motion",
-      projectDesc: "Hypnotic. Sweet. Scroll-stopping. Every frame crafted for maximum crave. Your treats deserve visuals that taste as good as they look."
+      projectDesc:
+        "Hypnotic. Sweet. Scroll-stopping. Every frame crafted for maximum crave. Your treats deserve visuals that taste as good as they look."
     },
     {
       image: require("./assets/images/fresh lemons.mp4"),
       projectName: "FRESH — No Filter Needed",
-      projectDesc: "The vibe: clean, crisp, unforgettable. Your product, front and center — no gimmicks, just perfection in motion. Let's shoot with style."
+      projectDesc:
+        "The vibe: clean, crisp, unforgettable. Your product, front and center — no gimmicks, just perfection in motion. Let's shoot with style."
     },
     {
       image: require("./assets/images/layered craving.jpg"),
       projectName: "Breaking the Frame",
-      projectDesc: "When your visuals leap off the screen — literally. Creative content that blends motion, imagination, and storytelling."
+      projectDesc:
+        "When your visuals leap off the screen — literally. Creative content that blends motion, imagination, and storytelling."
     },
     {
       image: require("./assets/images/new flavor.jpg"),
       projectName: "Layered Cravings",
-      projectDesc: "Rich texture. Vivid design. Chocolate with a side of contrast. Food content that pops on the timeline — built for brands that want to be remembered (and devoured)."
+      projectDesc:
+        "Rich texture. Vivid design. Chocolate with a side of contrast. Food content that pops on the timeline — built for brands that want to be remembered (and devoured)."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -316,16 +311,21 @@ const achievementSection = {
     },
     {
       title: "UN Resolution on Palestine Conference",
-      subtitle: "Participated in One-Day Conference on 'UN Resolution on Palestine: Gaza's Humanitarian Crisis and International Response' at Hazara University, Mansehra.",
+      subtitle:
+        "Participated in One-Day Conference on 'UN Resolution on Palestine: Gaza's Humanitarian Crisis and International Response' at Hazara University, Mansehra.",
       image: require("./assets/images/certificate 3.jpg"),
       imageAlt: "UN Resolution on Palestine Conference",
       footerLink: [
-        {name: "View Certificate", url: "https://drive.google.com/file/d/16zMpiyjaxJALZMCBUpG5T-jVkAOwC2JP/view"}
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/16zMpiyjaxJALZMCBUpG5T-jVkAOwC2JP/view"
+        }
       ]
     },
     {
       title: "Genocide in Palestine Conference",
-      subtitle: "Participated in National Conference on 'Genocide in Palestine: An International Law Perspective' organized by Department of Law, Hazara University, Mansehra.",
+      subtitle:
+        "Participated in National Conference on 'Genocide in Palestine: An International Law Perspective' organized by Department of Law, Hazara University, Mansehra.",
       image: require("./assets/images/certificate 4.jpg"),
       imageAlt: "Genocide in Palestine Conference",
       footerLink: [
@@ -349,13 +349,15 @@ const blogSection = {
   blogs: [
     {
       url: "https://drive.google.com/file/d/1HJftfwtJgijQV45lTNm5Taer5hZkKyng/view?usp=drive_link",
-      title: "Artificial Intelligence in Cars: Revolutionizing the Future of the Automotive Industry",
+      title:
+        "Artificial Intelligence in Cars: Revolutionizing the Future of the Automotive Industry",
       description:
         "Comprehensive research paper exploring AI integration in automotive systems, covering autonomous driving, ADAS, sensor fusion, and predictive maintenance technologies."
     },
     {
       url: "https://drive.google.com/file/d/1EaFn1lJMGz6itVvV6eaYhUp3Sjy0MuOs/view?usp=drive_link",
-      title: "The Role of Artificial Intelligence in Transforming Traffic Systems, Road Infrastructure, and Vehicles",
+      title:
+        "The Role of Artificial Intelligence in Transforming Traffic Systems, Road Infrastructure, and Vehicles",
       description:
         "Qualitative research methodology study examining AI's impact on transportation systems, focusing on technological readiness, policy frameworks, and ethical considerations."
     }
@@ -441,4 +443,3 @@ export {
   isHireable,
   resumeSection
 };
-
