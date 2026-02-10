@@ -266,12 +266,12 @@ const bigProjects = {
       projectDesc: "The vibe: clean, crisp, unforgettable. Your product, front and center — no gimmicks, just perfection in motion. Let's shoot with style."
     },
     {
-      image: require("./assets/images/new flavor.jpg"),
+      image: require("./assets/images/layered craving.jpg"),
       projectName: "Breaking the Frame",
       projectDesc: "When your visuals leap off the screen — literally. Creative content that blends motion, imagination, and storytelling."
     },
     {
-      image: require("./assets/images/layered craving.jpg"),
+      image: require("./assets/images/new flavor.jpg"),
       projectName: "Layered Cravings",
       projectDesc: "Rich texture. Vivid design. Chocolate with a side of contrast. Food content that pops on the timeline — built for brands that want to be remembered (and devoured)."
     }
