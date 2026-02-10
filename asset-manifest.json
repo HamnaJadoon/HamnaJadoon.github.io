@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.0c94da46.css",
-    "main.js": "/static/js/main.94107a47.js",
-    "static/media/burger.mp4": "/static/media/burger.760afae716182e0c432a.mp4",
-    "static/media/fresh lemons.mp4": "/static/media/fresh lemons.35e511abce700228978e.mp4",
-    "static/media/donuts.mp4": "/static/media/donuts.006eccc2953cdf18afbf.mp4",
+    "main.js": "/static/js/main.1ff9e02c.js",
+    "static/media/fresh lemons.mp4": "/static/media/fresh lemons.250dfe62a03e9c3bf967.mp4",
+    "static/media/burger.mp4": "/static/media/burger.c361d97dfc0ce279192f.mp4",
+    "static/media/donuts.mp4": "/static/media/donuts.7e597c9a5a81972636f6.mp4",
     "static/media/tameer.jpg": "/static/media/tameer.97600ea0763746e29033.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/new flavor.jpg": "/static/media/new flavor.3877034c617c3b10010b.jpg",
@@ -26,10 +26,10 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.0c94da46.css.map": "/static/css/main.0c94da46.css.map",
-    "main.94107a47.js.map": "/static/js/main.94107a47.js.map"
+    "main.1ff9e02c.js.map": "/static/js/main.1ff9e02c.js.map"
   },
   "entrypoints": [
     "static/css/main.0c94da46.css",
-    "static/js/main.94107a47.js"
+    "static/js/main.1ff9e02c.js"
   ]
 }
